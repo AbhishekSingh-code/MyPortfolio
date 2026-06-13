@@ -72,7 +72,7 @@ export const projects = [
     name: 'Neon Notes',
     description: 'A fast note-taking app with reusable components, search, and responsive glassmorphism UI.',
     stack: ['React', 'Tailwind', 'Local Storage'],
-    link: 'https://github.com',
+    link: 'https://neon-notes-app.vercel.app/',
   },
   {
     name: 'CodeFlow Hub',
