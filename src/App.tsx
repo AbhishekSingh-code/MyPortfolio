@@ -201,7 +201,7 @@ function App() {
                     <h3 className="text-xl font-semibold text-white">{project.name}</h3>
                     <p className="mt-2 text-sm text-slate-300/90">{project.description}</p>
                   </div>
-                  <a href={project.link} className="rounded-full border border-fuchsia-400/40 bg-fuchsia-500/10 p-3 text-fuchsia-100 hover:bg-fuchsia-500/20" aria-label="GitHub project link">
+                  <a href={"https://github.com/AbhishekSingh-code/Neon-Notes"} className="rounded-full border border-fuchsia-400/40 bg-fuchsia-500/10 p-3 text-fuchsia-100 hover:bg-fuchsia-500/20" aria-label="GitHub project link">
                     <FaGithub className="h-4 w-4" />
                   </a>
                 </div>
@@ -209,8 +209,8 @@ function App() {
                   {project.stack.map((item) => <span key={item} className="rounded-full border border-white/10 bg-white/8 px-3 py-1 text-xs uppercase tracking-[0.2em] text-slate-100">{item}</span>)}
                 </div>
                 <div className="mt-4 flex gap-3">
-                  <a href={project.link} className="inline-flex flex-1 items-center justify-center rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-500 px-4 py-2 text-sm font-semibold text-white shadow-[0_0_20px_rgba(192,132,252,0.35)]">GitHub</a>
-                  <a href="#contact" className="inline-flex flex-1 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-50">Live Demo</a>
+                  <a href={project.link} className="inline-flex flex-1 items-center justify-center rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-500 px-4 py-2 text-sm font-semibold text-white shadow-[0_0_20px_rgba(192,132,252,0.35)]">Live App</a>
+                  <a href="#contact" className="inline-flex flex-1 items-center justify-center rounded-full border border-cyan-400/40 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-50">Query</a>
                 </div>
               </GlassCard>
             ))}
