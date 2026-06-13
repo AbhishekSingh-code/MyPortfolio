@@ -105,7 +105,7 @@ function App() {
 
           <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.1 }} className="glass-card overflow-hidden rounded-[32px] border border-white/10 bg-white/8 p-5 shadow-[0_20px_60px_rgba(17,24,39,0.55)] backdrop-blur-2xl">
             <div className="overflow-hidden rounded-[28px] border border-white/10 bg-[linear-gradient(145deg,rgba(17,24,39,0.9),rgba(88,28,135,0.35),rgba(15,23,42,0.95))] p-5">
-              <img src="/src/assets/Abhishek1.png" alt="Abhishek Singh" className="h-72 w-full rounded-[24px] object-cover object-[center_8%] shadow-[0_0_30px_rgba(192,132,252,0.25)] md:h-80"/>
+              <img src="/Abhishek1.png" alt="Abhishek Singh" className="h-72 w-full rounded-[24px] object-cover object-[center_8%] shadow-[0_0_30px_rgba(192,132,252,0.25)] md:h-80"/>
               <div className="mt-4 flex items-center justify-between gap-3">
                 <div>
                   <p className="text-xs uppercase tracking-[0.35em] text-cyan-100/80">Status</p>
